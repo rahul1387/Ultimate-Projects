@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+}
+.main_div
+{
+    height: 100vh;
+    background: url("img/dark-plate-with-chocolate-sticks-form-clock\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul
+{
+    padding-right: 2em;
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+li
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2em;
+    font-weight: 550;
+    list-style: none;
+    
+}
+.navbar h1
+{
+    padding-left: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 3.5em;
+}
+h1
+{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 1em;
+    text-transform: uppercase;
+}
+.navbar a 
+{
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+li :hover
+{
+    color: aquamarine;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5em;
+}
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 40em;
+    width: 99.8%;
+}
+.clock_div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:33em;
+    width: 50%;
+    border: 2px solid rgb(66, 66, 66);
+    border-radius: 1em;
+}
+#time
+{
+    padding-top: 0.9em;
+    font-size: 2.4em;
+    color: white;
+}
+.time_div
+{
+    display: flex;
+}
+h3
+{
+    color: white;
+    opacity: 0.7;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+.about_time
+{
+    opacity: 1;
+}
+.btn 
+{
+    margin-top: 3em;
+    width: 9em;
+    height: 3.5em;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family: "Ubuntu", sans-serif;
+    transition: all 0.5s;
+}
+.btn1 
+{
+    border: 2px solid #279EFF;
+    color: #279EFF;
+}
+
+.btn1:hover 
+{
+    background-color: #279EFF;
+    color: black;
+}
