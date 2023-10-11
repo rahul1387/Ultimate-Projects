@@ -1,0 +1,66 @@
+.main_container{
+    background: black;
+    height: 100vh;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login_container
+{
+    height:35em;
+    width:35em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 1em;
+}
+.basic_info
+{
+    height: 3em;
+    width: 18em;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.basic_info::placeholder{
+    color: white;
+    opacity: 0.8;
+}
+.wel_titile
+{
+    opacity: 0.6;
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
+.change{
+    cursor: pointer;
+    margin-left: 0.2em;
+}
+.btn_form
+{
+    margin-top: 3em;
+    cursor: pointer;
+    padding: 0.8em;
+    width: 12em;
+    background-color: transparent;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.btn:hover
+{
+    background-color: white;
+    color: black;
+}
