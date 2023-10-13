@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
+
+
 .main_container{
     background: black;
     height: 100vh;
@@ -59,8 +62,23 @@
     border-radius: 5px;
     transition: all 0.5s;
 }
-.btn:hover
+.btn_form:hover
 {
     background-color: white;
     color: black;
+}
+#items
+{
+    background-color: black;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.table
+{
+    background: #000;
+    border: 2px solid #2b2b2b;
+    border-left: transparent;
+    border-right: transparent;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
 }

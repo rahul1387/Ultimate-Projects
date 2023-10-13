@@ -4,6 +4,7 @@ function getAndUpdate()
     nam = document.getElementById('name').value;
     lastName = document.getElementById('last_name').value;
     email = document.getElementById('email').value;
+
     if (localStorage.getItem('itemsJson') == null)
     {
         itemJsonArray = [];
@@ -19,8 +20,6 @@ function getAndUpdate()
     }
     update();
 }
-
-
 function update()
 {
     if (localStorage.getItem('itemsJson') == null)
@@ -42,6 +41,7 @@ function update()
             <th scope="row">${index + 1}</th>
             <td>${element[0]}</td>
             <td>${element[1]}</td>
+            <td>${element[2]}</td>
             <td><button class="btn btn-sm btn-primary" onclick="Deleted(${index})">Delete</button></td>
         </tr>`
     });

@@ -24,32 +24,33 @@
             <div>
                 <input id="name" type="text" placeholder="Enter Your name" class="basic_info"><br>
                 <input id="last_name" type="text" placeholder="Enter your last name" class="basic_info"><br>
-                <input type="email" placeholder="Enter your email address" class="basic_info">
+                <input type="email" placeholder="Enter your email address" class="basic_info" id="email">
             </div>
-            <div class="gender_selection">
+            <!-- <div class="gender_selection" id="gender">
                 <label for="gender" class="select_label">Select your gender:</label><br><br>
-                <label for="genderida" class="change">
-                    <input type="radio" name="gender" id="genderida">Male
+                <label for="gendera" class="change">
+                    <input type="radio" name="gender" id="gendera" value="Male">Male
                 </label>
-                <label for="genderidb" class="change">
-                    <input type="radio" name="gender" id="genderidb">Female
+                <label for="genderb" class="change">
+                    <input type="radio" name="gender" id="genderb" value="Female">Female
                 </label>
-                <label for="genderidc" class="change">
-                    <input type="radio" name="gender" id="genderidc">Others
+                <label for="genderc" class="change">
+                    <input type="radio" name="gender" id="genderc" value="Others">Others
                 </label>
-            </div>
+            </div> -->
             <button type="submit" id="add" class="btn_form">Submit</button>
         </div>
     </div>
     <div id="items" class="my-4">
-        <h2>Your Items</h2>
-        <table class="table">
+        <h2>Members List</h2>
+        <table class="table text-white">
             <thead>
                 <tr>
                     <th scope="col">Id.no</th>
                     <th scope="col">Name</th>
                     <th scope="col">Last Name</th>
                     <th scope="col">Email</th>
+                    <th scope="col">Actions</th>
                 </tr>
             </thead>
             <tbody id="tableBody">
