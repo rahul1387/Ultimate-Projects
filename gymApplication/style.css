@@ -4,14 +4,31 @@
     margin: 0;
     padding: 0;
 }
+html
+{
+    scroll-behavior: smooth;
+}
+header
+{
+    position: fixed;
+    width: 100vw;
+}
 .main_div
 {
-    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("img/dumbbells-floor-gym-ai-generative.jpg");
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("img/top-view-yoga-essential-items.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+}
+.main_title
+{
+    transition: all 0.5s;
+}
+.main_title:hover
+{
+    color: rgb(255, 72, 0);
 }
 .container
 {
@@ -54,14 +71,15 @@
     width: 12em;
     padding: 0 10em;
 }
-.gym_boy_img
-{
-    width: 19em;
-}
 a
 {
     text-decoration: none;
     color: white;
+    transition: all 0.5s;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    color: rgb(255, 72, 0);
 }
 .div1
 {
@@ -70,53 +88,56 @@ a
 .btn_join
 {
     cursor: pointer;
-    padding: 0.4em;
+    height: 3em;
+    width: 10em;
     background-color: transparent;
     color: white;
     text-transform: uppercase;
     font-family: 'Ubuntu', sans-serif;
-    font-weight: 400;
-    border: 2px solid white;
-    border-radius: 5px;
+    font-weight: bold;
+    border: 2px solid rgb(255, 72, 0);
+    border-radius: 45px;
     transition: all 0.5s;
 
 }
 .btn_join:hover
 {
-    background-color: white;
+    background-color: rgb(255, 72, 0);
     color: black;
 }
 .st_btn
 {
     margin-top: 1em;
     cursor: pointer;
-    padding: 0.6em;
+    height: 3.5em;
+    width: 10em;
     background-color: transparent;
     color: white;
     text-transform: uppercase;
     font-weight: 400;
     font-family: 'Ubuntu', sans-serif;
-    border: 2px solid white;
-    border-radius: 5px;
+    border: 2px solid rgb(255, 72, 0);
+    border-radius: 30em;
     transition: all 0.5s;
+    font-weight: bold;
 }
 .st_btn:hover
 {
-    background-color: white;
+    background-color: rgb(255, 72, 0);
     color: black;
 }
-.navbar a:hover{
-    color: aqua;
-}
+
 /* Section1 */
+
 .pricing_div
 {
     display:flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    height: 40em;
+    height: 30em;
 }
 .section1
 {
@@ -135,6 +156,7 @@ a
     width: 3vw;
     background-color: grey;
     height: 3px;
+    border-radius: 20em;
 }
 .price
 {
@@ -142,6 +164,7 @@ a
     border: 2px solid rgb(255, 72, 0);
     width: 20%; 
     height:22em;
+    margin-top: 1em;
 }
 .star
 {
@@ -218,15 +241,18 @@ a
 {
     opacity: 1;
 }
-.footer-col input
+.footer-col input, textarea
 {
-    border: none;
+    border: 1px solid white;
+    color: #fff;
     width: 250px;
     height: 45px;
     display: block;
     padding-left: 20px;
     margin: 14px 0;
     border-radius: 10px;
+    background-color: transparent;
+    font-size: large;
 }
 .submit-btn
 {

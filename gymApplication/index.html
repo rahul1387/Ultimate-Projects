@@ -15,13 +15,13 @@
         <div class="container">
             <header>
                 <nav class="flex justify_around items_center navigation_bar">
-                    <div class="font_bold font">EzGym
+                    <div class="font_bold font cursor_pointer main_title">EzGym
                     </div><i class="fa-solid fa-dumbbell" style="color: #ffffff; height: 1em;"></i>
                     <ul class="flex items_center navbar">
                         <li><a href="#">Home</a></li>
-                        <li><a href="">Service</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact Us</a></li>
+                        <li><a href="#subsription">Subscription</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#contactUs">Contact Us</a></li>
                     </ul>
                     <a href="join.html"><button class="btn_join">Join Now</button></a>
                 </nav>
@@ -41,28 +41,29 @@
                             cumque non iusto. Veritatis.</p>
                         <div>
                             <button class="st_btn">Start Now</button>
+                            <button class="st_btn mx"><a href="https://www.ezsoftwarehub.com/" target="_blank">Learn More</a></button>
                         </div>
                     </div>
                 </div>
             </div>
         </main>
     </div>
-    <div class="pricing_div">
+    <div class="pricing_div" id="subsription">
         <div class="heading_price">
-            <h1>Book now our subscription</h1>
+            <h1>Pricing</h1>
         </div>
         <div class="custom_div"></div>
         <section class="section1">
             <div class="pricing_list">
                 <div class="price1 price">
-                    <h3>For one Month</h3>
+                    <h3 class="my">For one Month</h3>
                     <img src="img/star-removebg-preview.png" class="star">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci explicabo quod rerum molestias dignissimos provident ea voluptate iste. Nostrum, officia.</p>
                     <p>Rs: 600/-</p>
                     <button type="submit" class="buy_btn">Buy Now</button>
                 </div>
                 <div class="price2 price">
-                    <h3>For six Month</h3>
+                    <h3 class="my">For six Month</h3>
                     <img src="img/star-removebg-preview.png" class="star"><img src="img/star-removebg-preview.png" class="star">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci explicabo quod rerum molestias dignissimos provident ea voluptate iste. Nostrum, officia.</p>
                     <p>Rs: 999/-</p>
@@ -78,7 +79,7 @@
             </div>
         </section>
     </div>
-    <footer>
+    <footer id="contactUs">
         <div class="footer_container">
             <div class="row">
                 <div class="footer-col">
@@ -113,7 +114,7 @@
                     <h4>Contact Us</h4>
                     <form action="">
                         <input type="text" placeholder="Enter Your Name" class="input-name">
-                        <input type="text" placeholder="Message">
+                        <textarea type="text text_center" placeholder="MESSAGE"></textarea>
                         <button type="submit" class="submit-btn">Submit</button>
                     </form>
                 </div>
